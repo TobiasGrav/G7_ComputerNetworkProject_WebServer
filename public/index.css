@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background: gainsboro;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px 10px ;
+}
+
+.table-section {
+    display: flex;
+    justify-content: center;
+}
+
+.graph {
+    display: flex;
+    justify-content: center;
+}
+
+#users-to-be-filled-from-db div{
+    padding: 30px;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+#users-to-be-filled-from-db div *{
+    margin-bottom: 5px;
+    padding: 5px 5px 5px 0;
+}
+
+table{
+    width: 74.5%;
+    padding: 30px;
+    padding-top: 10px;
+    max-width: 765px;
+
+}
+
+td, th {
+    border: 1px solid;
+    text-align: center;
+    padding: 5px 10px 0;
+    background: white;
+}
+
+th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#myChart {
+    border: 1px solid black;
+    background: white;
+    padding: 22px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+#myTable td {
+  padding: 0.25em;
+}
+
+span {
+  display: block;
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+    display:flex;
+    justify-content: center;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+#val3{
+    padding: 30px;
+    padding-top: 5px;
+    font-size: 32px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+h1 {
+    font-size: 40px;
+}
